@@ -282,6 +282,7 @@ public class Profile {
             case "ambient_mobs": enabled.serverWorld = true; return AMBIENT_MOBS;
             case "water_creatures": enabled.serverWorld = true; return WATER_CREATURES;
             case "water_ambient_mobs": enabled.serverWorld = true; return WATER_AMBIENT_MOBS;
+            case "underground_water_creatures": enabled.serverWorld = true; return UNDERGROUND_WATER_CREATURES;
             case "misc_mobs": enabled.serverWorld = true; return MISC_MOBS;
             case "streaming_sounds":
             case "sounds": enabled.sound = true; return STREAMING_SOUNDS;
