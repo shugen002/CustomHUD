@@ -153,6 +153,7 @@ public class SupplierElement implements HudElement {
     public static final Supplier<String> AMBIENT_MOBS = () -> spawnInfo() == null ? "?" : Integer.toString(spawnInfo().getGroupToCount().getInt(SpawnGroup.AMBIENT));
     public static final Supplier<String> WATER_CREATURES = () -> spawnInfo() == null ? "?" : Integer.toString(spawnInfo().getGroupToCount().getInt(SpawnGroup.WATER_CREATURE));
     public static final Supplier<String> WATER_AMBIENT_MOBS = () -> spawnInfo() == null ? "?" : Integer.toString(spawnInfo().getGroupToCount().getInt(SpawnGroup.WATER_AMBIENT));
+    public static final Supplier<String> UNDERGROUND_WATER_CREATURES = () -> spawnInfo() == null ? "?" : Integer.toString(spawnInfo().getGroupToCount().getInt(SpawnGroup.UNDERGROUND_WATER_CREATURE));
     public static final Supplier<String> MISC_MOBS = () -> spawnInfo() == null ? "?" : Integer.toString(spawnInfo().getGroupToCount().getInt(SpawnGroup.MISC));
     public static final Supplier<String> STREAMING_SOUNDS = () -> ComplexData.sounds[0];
     public static final Supplier<String> MAX_STREAMING_SOUNDS = () -> ComplexData.sounds[1];
